@@ -113,6 +113,10 @@ h5 {
   margin-bottom: var(--var-margin);
 }
 
+.review > p {
+  font-size: 0.85rem;
+}
+
 .review-image{
   border-radius: 50%;
   background-position: center;
@@ -122,7 +126,7 @@ h5 {
 }
 
 .ester {
-  background-image: url('../images/ester.jpeg');
+  background-image: url('../images/ester.png');
 }
 
 .jesusa {
