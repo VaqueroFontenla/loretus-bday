@@ -1,21 +1,15 @@
 :root {
-  --base-font-size: 1rem;
-  --font-color: #000;
+  --theme-body-bg: #e5e5e5;
+  --color-primary: #ffffff;
   --color-secondary:#ABEBC6;
   --color-terciary: #D5F5E3;
+  --base-font-size: 1rem;
+  --font-color: #000;
   --margin: 2rem;
   --padding: 1rem;
   --gap: 1rem;
   --border-radius: 0.25rem;
-  --theme-body-bg: #e5e5e5;
-  --form-bg: #fff;
-  --theme-color-primary: #000;
-  --error-color: #ff0000;
-  --success-color: #2ecc71;
-  --base-button-bg: #000;
-  --base-button-color: #fff;
-  --base-button-size: 100px;
-  --error-color-bg: #bd155033;
+
 }
 
 * {
@@ -47,7 +41,7 @@ main {
   max-width: 529px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--form-bg);
+  background-color: var(--color-primary);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   min-height: 100%;
 }
@@ -128,7 +122,7 @@ h5 {
 }
 
 .ester {
-  background-image: url('../images/jesusa.jpeg');
+  background-image: url('../images/ester.jpeg');
 }
 
 .jesusa {
